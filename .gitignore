@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Xcode per-user state
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+DerivedData/
+build/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Secrets (never commit)
+*.p12
+*.mobileprovision
+Secrets.xcconfig
+GoogleService-Info.plist
